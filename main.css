@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lemon', serif;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    font-family: 'Bungee Spice', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Exemplo de gradiente no texto */
+header h1 {
+    background: linear-gradient(45deg, #0077ff, #eaeaea);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+nav li a {
+    color: #ecf0f1;
+    text-decoration: dashed;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0;
+    color: #02040a;
+}
+
+section h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.image-container,
+.text-container {
+    text-align: center;
+}
+
+.store-front {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.login-form h2 {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #020408;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p a {
+    color: #020408;
+    font-weight: bold;
+    text-decoration: underline;
+}
